@@ -12,6 +12,7 @@ public class IMetierImpl implements IMetier {
      * au momznt de l'instantiation (la création de l'objet) */
 
     public IMetierImpl(IDao dao) {
+
         this.dao = dao;
     }
     /**
