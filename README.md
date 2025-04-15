@@ -7,17 +7,17 @@ Ce TP avait pour objectif de maîtriser l'injection de dépendances avec Spring 
 
 <h3>🔹 Couche DAO</h3>
 Nous avons créé :
-- Une interface `IDao` avec la méthode `getData()`.  
-- Deux implémentations :   
-  - `DaoImpl` (simulant une base de données)  
-  - `DaoImplV2` (simulant des capteurs)  
-Chaque implémentation retourne une valeur différente pour démontrer l'injection dynamique.
+- Une interface `IDao` avec la méthode `getData()`.<br>    
+- Deux implémentations :   <br>  
+  - `DaoImpl` (simulant une base de données)<br>    
+  - `DaoImplV2` (simulant des capteurs)  <br>  
+Chaque implémentation retourne une valeur différente pour démontrer l'injection dynamique.<br>  
 
 <h3>🔹 Couche Métier</h3>
-L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul en utilisant :  
-- L'injection par constructeur.  
-- L'injection par setter.  
-- L'injection par annotation `@Autowired`.  
+L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul en utilisant :  <br>  
+- L'injection par constructeur.  <br>  
+- L'injection par setter.  <br>  
+- L'injection par annotation `@Autowired`.<br>    
 
 <h3>🔹 Couche Présentation</h3>
 4 méthodes d'injection ont été testées :
@@ -36,16 +36,16 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
    Déclaration explicite des beans dans le fichier config.xml.Chaque bean est défini avec son ID et sa classe complète, et les dépendances sont spécifiées via des balises <constructor-arg>. Bien que plus verbeuse que les annotations, cette méthode offre une configuration centralisée et modifiable sans recompiler le code.  
 
 <h2>📝 Observations Clés</h2>
-- **Spring simplifie grandement** la gestion des dépendances    
-- **L'injection par constructeur** est la plus sûre (dépendances obligatoires)    
-- **Le fichier XML** offre une configuration centralisée mais verbeuse    
-- **Les annotations** réduisent la configuration au prix d'une moins bonne visibilité    
+- **Spring simplifie grandement** la gestion des dépendances <br>     
+- **L'injection par constructeur** est la plus sûre (dépendances obligatoires)<br>      
+- **Le fichier XML** offre une configuration centralisée mais verbeuse    <br>  
+- **Les annotations** réduisent la configuration au prix d'une moins bonne visibilité  <br>    
 
 <h2>✅ Ce Que J'ai Appris</h2>
-- Différencier couplage fort/faible    
-- Implémenter l'IoC sans Spring    
-- Configurer Spring via XML et annotations    
-- Choisir le type d'injection selon le contexte    
+- Différencier couplage fort/faible <br>     
+- Implémenter l'IoC sans Spring   <br>   
+- Configurer Spring via XML et annotations  <br>    
+- Choisir le type d'injection selon le contexte <br>     
 <h2>Conclusion</h2>
 Ce TP m'a permis d'explorer en profondeur les différentes techniques d'injection de dépendances. Chaque méthode a ses forces et faiblesses, et le choix dépendra des besoins spécifiques du projet. Spring Framework, avec ses deux modes de configuration (annotations et XML), offre une solution complète et professionnelle pour gérer les dépendances dans les applications Java.
 
