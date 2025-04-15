@@ -40,6 +40,9 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
 - **L'injection par constructeur** est la plus sûre (dépendances obligatoires)<br>      
 - **Le fichier XML** offre une configuration centralisée mais verbeuse    <br>  
 - **Les annotations** réduisent la configuration au prix d'une moins bonne visibilité  <br>    
+<h2>Analyse Comparative</h2>
+
+Bien que l'injection manuelle convienne parfaitement aux prototypes en raison de sa simplicité, elle présente cependant une rigidité qui limite son utilisation dans des projets complexes. D'autre part, l'approche dynamique, qui offre une plus grande adaptabilité grâce à son mécanisme de réflexion, comporte néanmoins le risque d'erreurs à l'exécution. En revanche, Spring avec annotations constitue la solution la plus équilibrée puisqu'elle combine efficacement simplicité d'utilisation et maintenabilité du code. Quant à la configuration XML, elle conserve son utilité principalement pour les cas où des modifications externes sans recompilation sont requises.
 
 <h2>✅ Ce Que J'ai Appris</h2>
 - Différencier couplage fort/faible <br>     
