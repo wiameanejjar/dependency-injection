@@ -36,16 +36,18 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
    Déclaration explicite des beans dans le fichier config.xml.Chaque bean est défini avec son ID et sa classe complète, et les dépendances sont spécifiées via des balises <constructor-arg>. Bien que plus verbeuse que les annotations, cette méthode offre une configuration centralisée et modifiable sans recompiler le code.
 
 <h2>📝 Observations Clés</h2>
-- **Spring simplifie grandement** la gestion des dépendances
-- **L'injection par constructeur** est la plus sûre (dépendances obligatoires)
-- **Le fichier XML** offre une configuration centralisée mais verbeuse
-- **Les annotations** réduisent la configuration au prix d'une moins bonne visibilité
+- **Spring simplifie grandement** la gestion des dépendances  
+- **L'injection par constructeur** est la plus sûre (dépendances obligatoires)  
+- **Le fichier XML** offre une configuration centralisée mais verbeuse  
+- **Les annotations** réduisent la configuration au prix d'une moins bonne visibilité  
 
 <h2>✅ Ce Que J'ai Appris</h2>
-- Différencier couplage fort/faible
-- Implémenter l'IoC sans Spring
-- Configurer Spring via XML et annotations
-- Choisir le type d'injection selon le contexte
+- Différencier couplage fort/faible  
+- Implémenter l'IoC sans Spring  
+- Configurer Spring via XML et annotations  
+- Choisir le type d'injection selon le contexte  
+<h2>Conclusion</h2>
+Ce TP m'a permis d'explorer en profondeur les différentes techniques d'injection de dépendances. Chaque méthode a ses forces et faiblesses, et le choix dépendra des besoins spécifiques du projet. Spring Framework, avec ses deux modes de configuration (annotations et XML), offre une solution complète et professionnelle pour gérer les dépendances dans les applications Java.
 
-<h3>👩‍💻 Auteure</h3>
+<h3> Auteure :</h3>
 Wiame Anejjar
