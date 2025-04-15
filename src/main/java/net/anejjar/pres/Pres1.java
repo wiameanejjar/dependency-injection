@@ -10,7 +10,7 @@ public class Pres1 {
         DaoImplV2 d = new DaoImplV2();
         //DaoImpl d = new DaoImpl();
         IMetierImpl metier = new IMetierImpl(d);
-        //metier.setDao(d); // Injection des dépendances via le setter
+        metier.setDao(d); // Injection des dépendances via le setter
         System.out.println("RES ="+metier.calcul());
     }
 }
