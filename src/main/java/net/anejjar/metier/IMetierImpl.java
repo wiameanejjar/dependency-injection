@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 
-
+//@Service("metier")
 @Component("metier")
 public class IMetierImpl implements IMetier {
     @Autowired
-
+    //@Qualifier("d2")
     private IDao dao;  // Couplage faible
 
     /**

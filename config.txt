@@ -1,2 +1,2 @@
-net.anejjar.ext.DaoImplV2
+net.anejjar.dao.DaoImpl
 net.anejjar.metier.IMetierImpl
