@@ -1,7 +1,7 @@
 <h1 align="center">📊 Rapport TP Spring - Injection de Dépendances</h1>
 
 <h2>🎯 Objectifs du TP</h2>
-Ce TP avait pour but de maîtriser l'injection de dépendances avec Spring à travers 4 approches différentes : manuelle, dynamique, par annotations et via XML. L'application simule un calcul métier basé sur des données fournies par un DAO.
+Ce TP avait pour objectif de maîtriser l'injection de dépendances avec Spring à travers 4 approches différentes : manuelle, dynamique, par annotations et via XML. L'application simule un calcul métier basé sur des données fournies par un DAO.
 
 <h2>🧩 Structure du Projet</h2>
 
