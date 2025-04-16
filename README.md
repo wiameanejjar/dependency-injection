@@ -10,7 +10,10 @@ Ce TP avait pour objectif de maîtriser l'injection de dépendances avec Spring 
 Nous avons créé :
 - Une interface `IDao` avec la méthode `getData()`.<br>    
 - Deux implémentations :   <br>  
-  - `DaoImpl` (simulant une base de données)<br>    
+  - `DaoImpl` (simulant une base de données)<br>  
+   
+   ![img](https://github.com/wiameanejjar/dependency-injection/blob/c0d0d5b0092531cfa6840f4d4bdfd0e8a3f82f98/tp.JPG)
+  
   - `DaoImplV2` (simulant des capteurs)  <br>  
 Chaque implémentation retourne une valeur différente pour démontrer l'injection dynamique.<br>  
 
