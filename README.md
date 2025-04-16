@@ -4,9 +4,10 @@
 Ce TP avait pour objectif de maîtriser l'injection de dépendances avec Spring à travers 4 approches différentes : manuelle, dynamique, par annotations et via XML. L'application simule un calcul métier basé sur des données fournies par un DAO.
 
 <h2>🧩 Structure du Projet</h2>
-![img](https://github.com/wiameanejjar/dependency-injection/blob/a104735f0da4dba89a722dbc71301cda99fa039d/struct.JPG)
+
 
 <h3>🔹 Couche DAO</h3>
+![img](https://github.com/wiameanejjar/dependency-injection/blob/a104735f0da4dba89a722dbc71301cda99fa039d/struct.JPG)
 Nous avons créé :
 - Une interface `IDao` avec la méthode `getData()`.<br>    
 - Deux implémentations :   <br>  
