@@ -31,9 +31,10 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
    ![img](https://github.com/wiameanejjar/dependency-injection/blob/843208c40ee4c373dad70e0c15c4310727ef128a/pres2.JPG)
 
 5. **Spring par Annotations** (`PresSpringAnnotation`)  
-   Configuration automatique via le scan de packages et annotations (`@Repository`, `@Service`,`@Component`).Le contexte d'application scanne automatiquement le package net.anejjar pour détecter les composants marqués avec @Repository et @Service ou @Component. L'injection se fait automatiquement grâce à @Autowired. Cette approche moderne réduit considérablement la configuration tout en offrant une grande flexibilité.  
+   Configuration automatique via le scan de packages et annotations (`@Repository`, `@Service`,`@Component`).Le contexte d'application scanne automatiquement le package net.anejjar pour détecter les composants marqués avec @Repository et @Service ou @Component. L'injection se fait automatiquement grâce à @Autowired. Cette approche moderne réduit considérablement la configuration tout en offrant une grande flexibilité.
+   ![img](https://github.com/wiameanejjar/dependency-injection/blob/7904f99c3e24d9cbaf24d7c9511b64d2efe88d3b/annotation.JPG)
 
-6. **Spring par XML** (`PresSpringXML`)  
+7. **Spring par XML** (`PresSpringXML`)  
    Déclaration explicite des beans dans le fichier config.xml.Chaque bean est défini avec son ID et sa classe complète, et les dépendances sont spécifiées via des balises <constructor-arg>. Bien que plus verbeuse que les annotations, cette méthode offre une configuration centralisée et modifiable sans recompiler le code.  
 
 <h2>📝 Observations Clés</h2>
