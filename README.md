@@ -42,6 +42,8 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
 7. **Spring par XML** (`PresSpringXML`)  
    Déclaration explicite des beans dans le fichier config.xml.Chaque bean est défini avec son ID et sa classe complète, et les dépendances sont spécifiées via des balises <constructor-arg>. Bien que plus verbeuse que les annotations, cette méthode offre une configuration centralisée et modifiable sans recompiler le code.
    ![img](https://github.com/wiameanejjar/dependency-injection/blob/66f0f1fc9c19e2f285875906bf29e8c39996b044/xml.JPG)
+   ----config.xml:
+   ![img](https://github.com/wiameanejjar/dependency-injection/blob/9ae4b9e3319da856c7c005b66c4fc415161c23f2/configXML.JPG)
 
 <h2>📝 Observations Clés</h2>
 - **Spring simplifie grandement** la gestion des dépendances <br>     
