@@ -5,7 +5,7 @@ Ce TP avait pour objectif de maîtriser l'injection de dépendances avec Spring 
 
 <h2>🧩 Structure du Projet</h2>
 
-<p align="center">![img](https://github.com/wiameanejjar/dependency-injection/blob/a104735f0da4dba89a722dbc71301cda99fa039d/struct.JPG)</p>
+<h1 align="center">![img](https://github.com/wiameanejjar/dependency-injection/blob/a104735f0da4dba89a722dbc71301cda99fa039d/struct.JPG)</h1>
 <h3>🔹 Couche DAO</h3>
 Nous avons créé :
 - Une interface `IDao` avec la méthode `getData()`.<br>    
