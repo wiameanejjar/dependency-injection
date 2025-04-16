@@ -14,7 +14,8 @@ Nous avons créé :
    
    ![img](https://github.com/wiameanejjar/dependency-injection/blob/c0d0d5b0092531cfa6840f4d4bdfd0e8a3f82f98/tp.JPG)
   
-  - `DaoImplV2` (simulant des capteurs)  <br>  
+  - `DaoImplV2` (simulant des capteurs)  <br>
+   ![img](https://github.com/wiameanejjar/dependency-injection/blob/915f9d5021b1b7219fab272e78cdd08e7b740317/impl2.JPG)
 Chaque implémentation retourne une valeur différente pour démontrer l'injection dynamique.<br>  
 
 <h3>🔹 Couche Métier</h3>
