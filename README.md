@@ -27,12 +27,13 @@ L'interface `IMetier` et son implémentation `IMetierImpl` réalisent un calcul 
    ![img](https://github.com/wiameanejjar/dependency-injection/blob/16e4ce7d8e41ece514c8a9cf1a77d1f15dbda9e0/pres1.JPG)
   
 3. **Injection dynamique** (`Pres2`)  
-   Utilisation de la réflexion Java pour charger les classes depuis un fichier config.txt. Le programme lit le fichier contenant les noms complets des classes à instancier (net.anejjar.ext.DaoImplV2 et net.anejjar.metier.IMetierImpl). Grâce à Class.forName() et newInstance(), nous créons dynamiquement les objets et gérons l'injection. Cette méthode permet de modifier le comportement de l'application simplement en éditant le fichier texte, sans recompilation.  
+   Utilisation de la réflexion Java pour charger les classes depuis un fichier config.txt. Le programme lit le fichier contenant les noms complets des classes à instancier (net.anejjar.ext.DaoImplV2 et net.anejjar.metier.IMetierImpl). Grâce à Class.forName() et newInstance(), nous créons dynamiquement les objets et gérons l'injection. Cette méthode permet de modifier le comportement de l'application simplement en éditant le fichier texte, sans recompilation.
+   ![img](https://github.com/wiameanejjar/dependency-injection/blob/843208c40ee4c373dad70e0c15c4310727ef128a/pres2.JPG)
 
-4. **Spring par Annotations** (`PresSpringAnnotation`)  
+5. **Spring par Annotations** (`PresSpringAnnotation`)  
    Configuration automatique via le scan de packages et annotations (`@Repository`, `@Service`,`@Component`).Le contexte d'application scanne automatiquement le package net.anejjar pour détecter les composants marqués avec @Repository et @Service ou @Component. L'injection se fait automatiquement grâce à @Autowired. Cette approche moderne réduit considérablement la configuration tout en offrant une grande flexibilité.  
 
-5. **Spring par XML** (`PresSpringXML`)  
+6. **Spring par XML** (`PresSpringXML`)  
    Déclaration explicite des beans dans le fichier config.xml.Chaque bean est défini avec son ID et sa classe complète, et les dépendances sont spécifiées via des balises <constructor-arg>. Bien que plus verbeuse que les annotations, cette méthode offre une configuration centralisée et modifiable sans recompiler le code.  
 
 <h2>📝 Observations Clés</h2>
